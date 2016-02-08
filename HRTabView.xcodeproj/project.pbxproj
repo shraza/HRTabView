@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		527830551C69098900B9FBBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527830541C69098900B9FBBB /* AppDelegate.swift */; };
+		527830571C69098900B9FBBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527830561C69098900B9FBBB /* ViewController.swift */; };
+		5278305A1C69098900B9FBBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527830581C69098900B9FBBB /* Main.storyboard */; };
+		5278305C1C69098900B9FBBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5278305B1C69098900B9FBBB /* Assets.xcassets */; };
+		5278305F1C69098900B9FBBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5278305D1C69098900B9FBBB /* LaunchScreen.storyboard */; };
+		527830671C69099300B9FBBB /* PagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527830661C69099300B9FBBB /* PagerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		527830511C69098900B9FBBB /* HRTabView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HRTabView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		527830541C69098900B9FBBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		527830561C69098900B9FBBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		527830591C69098900B9FBBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5278305B1C69098900B9FBBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5278305E1C69098900B9FBBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		527830601C69098900B9FBBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		527830661C69099300B9FBBB /* PagerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5278304E1C69098900B9FBBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		527830481C69098900B9FBBB = {
+			isa = PBXGroup;
+			children = (
+				527830531C69098900B9FBBB /* HRTabView */,
+				527830521C69098900B9FBBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		527830521C69098900B9FBBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				527830511C69098900B9FBBB /* HRTabView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		527830531C69098900B9FBBB /* HRTabView */ = {
+			isa = PBXGroup;
+			children = (
+				527830661C69099300B9FBBB /* PagerView.swift */,
+				527830541C69098900B9FBBB /* AppDelegate.swift */,
+				527830561C69098900B9FBBB /* ViewController.swift */,
+				527830581C69098900B9FBBB /* Main.storyboard */,
+				5278305B1C69098900B9FBBB /* Assets.xcassets */,
+				5278305D1C69098900B9FBBB /* LaunchScreen.storyboard */,
+				527830601C69098900B9FBBB /* Info.plist */,
+			);
+			path = HRTabView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		527830501C69098900B9FBBB /* HRTabView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 527830631C69098900B9FBBB /* Build configuration list for PBXNativeTarget "HRTabView" */;
+			buildPhases = (
+				5278304D1C69098900B9FBBB /* Sources */,
+				5278304E1C69098900B9FBBB /* Frameworks */,
+				5278304F1C69098900B9FBBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HRTabView;
+			productName = HRTabView;
+			productReference = 527830511C69098900B9FBBB /* HRTabView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		527830491C69098900B9FBBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "MacBook Pro";
+				TargetAttributes = {
+					527830501C69098900B9FBBB = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 5278304C1C69098900B9FBBB /* Build configuration list for PBXProject "HRTabView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 527830481C69098900B9FBBB;
+			productRefGroup = 527830521C69098900B9FBBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				527830501C69098900B9FBBB /* HRTabView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5278304F1C69098900B9FBBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5278305F1C69098900B9FBBB /* LaunchScreen.storyboard in Resources */,
+				5278305C1C69098900B9FBBB /* Assets.xcassets in Resources */,
+				5278305A1C69098900B9FBBB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5278304D1C69098900B9FBBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527830571C69098900B9FBBB /* ViewController.swift in Sources */,
+				527830671C69099300B9FBBB /* PagerView.swift in Sources */,
+				527830551C69098900B9FBBB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		527830581C69098900B9FBBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				527830591C69098900B9FBBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5278305D1C69098900B9FBBB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5278305E1C69098900B9FBBB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		527830611C69098900B9FBBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		527830621C69098900B9FBBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		527830641C69098900B9FBBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HRTabView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hasan.HRTabView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		527830651C69098900B9FBBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HRTabView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hasan.HRTabView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5278304C1C69098900B9FBBB /* Build configuration list for PBXProject "HRTabView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527830611C69098900B9FBBB /* Debug */,
+				527830621C69098900B9FBBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		527830631C69098900B9FBBB /* Build configuration list for PBXNativeTarget "HRTabView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527830641C69098900B9FBBB /* Debug */,
+				527830651C69098900B9FBBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 527830491C69098900B9FBBB /* Project object */;
+}
