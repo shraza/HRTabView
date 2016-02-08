@@ -10,3 +10,5 @@ Implement the delegate method:
 func didTapAtIndex(index: Int) {
 print("tap: \(index)")
 }
+
+![screen shot 2016-02-08 at 11 23 51 pm](https://cloud.githubusercontent.com/assets/12963167/12894970/df344b52-cebb-11e5-9984-34e7104a2a1e.png)
